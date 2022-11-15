@@ -1,13 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*-----COLOURS-----*/
+
+
+
+
+/*-----HEADER-----*/
 .header {
     margin: 0;
+}
 
+.heading {
+    margin-left: 50px;
 }
 
 .logo {
-    background: url(../images/profile-pic.jpg);
+    background: url(../images/profile-pic.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,4 +24,26 @@
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.bg-color-name-title {
+    background-color: #676767;
+
+}
+
+.name {
+    font-family: "exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
 }
