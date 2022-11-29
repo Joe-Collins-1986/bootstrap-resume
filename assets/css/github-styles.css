@@ -115,6 +115,10 @@ img {
   display: block;
 }
 
+.list-inline-item:not(:last-child) {
+  margin-right: 0;
+}
+
 .repo-list ul li a {
   font-weight: bold;
   padding: 6px 9px;
